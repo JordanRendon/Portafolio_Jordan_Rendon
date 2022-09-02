@@ -17,12 +17,9 @@ header {
   top: 0;
 
 }
-hr{
-  background-color: #2e2e31;
-}
 ul li :hover{
   color: rgb(201, 44, 44);
-  
+  background-color: #a6a4ac;
 }
 
 .menu-container{
@@ -55,27 +52,15 @@ li{
   font-size: large;
 
 }
-
 a{
   text-decoration: none;
   color: #2e2e31;
 }
 
 .links{
-  line-height: 2.5;
   padding: 0 10px;
   border-radius: 100px;
 }
-
-.links.contacto{
-  color: rgb(255, 255, 255);
-  padding: 10px 30px;
-}
-
-.contacto{
-  background-color:  rgb(63, 63, 63);
-}
-
 .section{
   display: flex;
     justify-content: center;
@@ -161,7 +146,6 @@ h2{
 .elementos{
   display: flex;
   flex-wrap: wrap;
-  /* margin-top: 40px; */
   justify-content: center;
 }
 .elemento{
@@ -311,18 +295,4 @@ i{
     height: 250%;
     align-items: center;
   }
-  
- 
-}
-@media screen and (max-width: 560px){
-  /* .section-proyec{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .elementos{
-    align-items: center; 
-    width: 250%;
-    height: 250%;
-  } */
 }
