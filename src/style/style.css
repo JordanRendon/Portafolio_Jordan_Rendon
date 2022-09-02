@@ -1,0 +1,303 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+  display: block;
+  margin: 0;
+  height: 100%;
+}
+
+header {
+  background-color: rgb(202, 214, 214);
+  width: 100%;
+  padding: 25px 0;
+  position: fixed;
+  top: 0;
+
+}
+hr{
+  background-color: #2e2e31;
+}
+ul li :hover{
+  color: rgb(201, 44, 44);
+  
+}
+
+.menu-container{
+display: flex;
+justify-content: center;
+}
+
+.nav-header{
+  display: flex;
+justify-content: center;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+}
+
+.nav-menu{
+  display: flex;
+  margin: 0;
+}
+
+li{
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+.cajas{
+  margin: 0 10px;
+  font-size: large;
+
+}
+
+a{
+  text-decoration: none;
+  color: #2e2e31;
+}
+
+.links{
+  line-height: 2.5;
+  padding: 0 10px;
+  border-radius: 100px;
+}
+
+.links.contacto{
+  color: rgb(255, 255, 255);
+  padding: 10px 30px;
+}
+
+.contacto{
+  background-color:  rgb(63, 63, 63);
+}
+
+.section{
+  display: flex;
+    justify-content: center;
+    padding: 110px 40px 130px;
+    text-align: center;
+
+}
+.sobremi-container{
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.info-mio{
+  width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+}
+
+p{
+  display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.saludo{
+  font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-weight: 800;
+}
+h1{
+  font-size: 60px;
+    font-weight: 900;
+}
+
+.nombre{
+  margin-top: 0;
+    margin-bottom: 5px;
+    color: #616064;
+}
+.descripcion{
+  color: #616161;
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+.imagen{
+  height: 300px;
+  width: 310px;
+  margin: 1%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.contenido{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(226, 228, 228);
+}
+.section-proyec{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  text-align: center;
+  width: 100%;
+}
+h2{
+  color: black;
+    margin-bottom: 0.375em;
+    line-height: 1.2;
+    padding: 65px;
+}
+.elementos{
+  display: flex;
+  flex-wrap: wrap;
+  /* margin-top: 40px; */
+  justify-content: center;
+}
+.elemento{
+  width: 350px;
+  height: 250px;
+  background-color: #ffffff;
+  border: 1px solid #afacac;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 65px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.fa-html5{
+  color: rgb(233, 95, 45);
+}
+.fa-css3-alt{
+  color: rgb(84, 84, 250);
+}
+.fa-js{
+  color: rgb(235, 235, 86);
+}
+.fa-react{
+  color: rgb(94, 168, 230);
+}
+.fa-git-alt{
+  color: rgb(233, 95, 45);
+}
+.fa-node{
+  color: rgb(19, 117, 19);
+}
+.fab{
+  font-size: 70px;
+}
+.contenido-proyect{
+  margin: 100px;
+}
+.elementoname{
+  font-size: 1.25em;
+  font-weight: 700;
+  color: rgb(65, 64, 64);
+}
+.proyectos{
+  width: 100%;
+}
+.project{
+  width: calc(100% / 3 - (0.75em * 2));
+    margin: 0.75em;
+    border: 1px solid rgb(160, 158, 158);
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+}
+.tarjeta{
+  display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+img{
+  display: block;
+  width: 100%;
+}
+.Nombre-proyecto{
+  font-weight: 600;
+  margin-top: 20px;
+}
+footer{
+  position: relative;
+    width: 100%;
+    background-color: #414141;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer p:nth-child(1) {
+  color: white;
+  font-size: 44px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.social{
+  display: flex;
+}
+.social a {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(19, 19, 19);
+  border-radius: 50px;
+  margin: 22px 10px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+}
+i{
+  margin: 5px;
+}
+@media screen and (max-width: 580px) {
+  header{
+    display: none;
+  }
+  .column{
+    max-width: 100%;
+  }
+  .section{
+    padding: 80px 20px;
+  }
+  .sobremi-container{
+    flex-direction: column;
+  }
+  .info-mio{
+    align-items: center;
+    text-align: center;
+  }
+  .imagen{
+    margin-top: 30px;
+  }
+  .elemento{
+    width: calc(50% - 20px);
+    padding: 20px 10px;
+    margin: 0.5em;
+  }
+  .icon{
+    font-size: 2.71em;
+  }
+  .project{
+    width: calc(100% / 2 - (0.75em * 2));
+    margin: 0.75em;
+  }
+  .proyectos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
