@@ -8,6 +8,16 @@ body{
   margin: 0;
   height: 100%;
 }
+.nav-menu-logo{
+color: #202022;
+background: none;
+border: none;
+font-size: 20px;
+margin-right: auto;
+/* padding: 0 20px; */
+
+display: none;
+}
 
 header {
   background-color: rgb(202, 214, 214);
@@ -247,12 +257,46 @@ footer p:nth-child(1) {
 i{
   margin: 5px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   header{
-    display: none;
+    /* display: none;  */
+     height: 5px;
+  }
+  .nav-menu{
+    display:flex ;
+    flex-direction: column;
+    background-color: rgb(161, 157, 153);
+    position: absolute;
+    left: -100%;
+    top: 50px;
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+    /* display: none; */
+  }
+  .nav-menu.active{
+    left: 0;
+  }
+  .cajas{
+    margin-top: 10px;
   }
   .column{
     max-width: 100%;
+  }
+  .nav-menu_visible{
+    left: 0;
+  }
+  .nav-menu-logo{
+    display: block;
+    position: absolute;
+    bottom: 7px;
+  }
+  .menu-container{
+    /* flex-direction: column; */
+    margin-right: 15px;
+    background-color: rgb(202, 214, 214);
+    width: 40px;
+    display: block;    
   }
   .section{
     padding: 80px 20px;
