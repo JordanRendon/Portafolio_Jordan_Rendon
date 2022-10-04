@@ -1,6 +1,7 @@
 const navMenuLogo = document.querySelector('.nav-menu-logo')
 const navMenu = document.querySelector('.nav-menu')
 const btnIrArriba = document.querySelector('.btn-ir-arriba')
+const btnModoOscuro = document.querySelector('#switch')
 
 navMenuLogo.addEventListener('click', ()=>{
     navMenu.classList.toggle('active')
@@ -16,4 +17,9 @@ window.addEventListener('scroll', ()=>{
     }else{
         btnIrArriba.style.right = 5 + 'px'
     }
+})
+
+btnModoOscuro.addEventListener('click',()=>{
+    document.body.classList.toggle('dark')
+    btnModoOscuro.classList.toggle('active')
 })
