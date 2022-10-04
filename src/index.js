@@ -21,5 +21,6 @@ window.addEventListener('scroll', ()=>{
 
 btnModoOscuro.addEventListener('click',()=>{
     document.body.classList.toggle('dark')
+    
     btnModoOscuro.classList.toggle('active')
 })

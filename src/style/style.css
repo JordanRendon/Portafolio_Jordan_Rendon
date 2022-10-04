@@ -6,14 +6,38 @@
 html{
   scroll-behavior: smooth;
 }
+.dark {
+  background-color: #050505;
+  color: white !important;
 
+}
+.dark .btn-ir-arriba{
+  color: #fff;
+}
+.dark h2{
+  color: #fff;
+}
+.dark a{
+  background-color: #202022;
+  color: white !important;
+}
+.dark ul li{
+  color: white; 
+}
+.dark #habilidades{
+  background-color: #050505;
+  color: white !important;
+}
+.dark #proyectos{
+  background-color: #050505;
+}
 body{
   display: block;
   margin: 0;
   height: 100%;
 }
 .nav-menu-logo{
-color: #202022;
+/* color: #202022; */
 background: none;
 border: none;
 font-size: 20px;
@@ -39,6 +63,7 @@ ul li :hover{
 .menu-container{
 display: flex;
 justify-content: center;
+width: 100%;
 }
 
 .nav-header{
@@ -81,6 +106,13 @@ a{
   height: 30px;
   width: 60px;
  
+}
+.container-btn-oscuro{
+  /* background-color: #050505; */
+  /* margin-right: 100px; */
+  position: relative;
+  margin-left: 3rem;
+  margin-top: -7px;
 }
 .btn-modo-oscuro::after{
   content: "";
@@ -335,7 +367,13 @@ i{
     width: 100%;
     height: auto;
     padding: 20px 0;
-    /* display: none; */
+  }
+  .container-btn-oscuro {
+    /* background-color: #050505; */
+    /* margin-right: 100px; */
+    position: relative;
+    margin-left: 3rem;
+    margin-top: -15px;
   }
   .nav-menu.active{
     left: 0;
@@ -360,6 +398,9 @@ i{
     background-color: rgb(202, 214, 214);
     width: 40px;
     display: block;    
+  }
+  .btn-modo-oscuro{
+    margin-right: 20px;
   }
   .section{
     padding: 80px 20px;
