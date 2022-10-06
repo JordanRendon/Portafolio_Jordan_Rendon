@@ -464,7 +464,7 @@ i{
     max-width: 300px;
     position: relative;
     left: -60px;
-    top: -42px;
+    top: -52px;
     width: 207%;
     height: 100%;
   }
@@ -478,7 +478,7 @@ i{
   }
   .proyecto2{
     position: relative;
-    top: -70px;
+    top: -60px;
   }
   .proyecto3{
     position: relative;
@@ -491,5 +491,10 @@ i{
   .elementoname{
     position: relative;
     top: 30px;
+  }
+}
+@media screen and (max-width: 330px){
+  footer{
+    width: 100%;
   }
 }
