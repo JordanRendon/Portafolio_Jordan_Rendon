@@ -46,7 +46,9 @@ margin-right: auto;
 
 display: none;
 }
-
+#menu{
+  z-index: 2;
+}
 header {
   background-color: rgb(202, 214, 214);
   width: 100%;
